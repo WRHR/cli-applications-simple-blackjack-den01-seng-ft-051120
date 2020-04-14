@@ -39,7 +39,12 @@ def hit?
   # code hit? here
   prompt_user
   user_input = get_user_input
-  if user_input !=
+  if user_input != ("h" || "s")
+    invalid_command
+    prompt_user
+  elsif user_input == "h"
+  end
+  
 end
 
 def invalid_command
