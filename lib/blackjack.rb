@@ -20,7 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.chomp()
+  gets.chomp
 
 def end_game
   # code #end_game here
