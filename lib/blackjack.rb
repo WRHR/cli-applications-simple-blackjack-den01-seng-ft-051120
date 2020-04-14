@@ -42,7 +42,7 @@ def hit?
   if user_input != ("h" || "s")
     invalid_command
     prompt_user
-  elsif user_input == "h"
+  elsif user_input == "s"
   end
   
 end
